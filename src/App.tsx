@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./components/styles.css";
 import InputFields from "./components/InputFields";
 import { Todo } from "./model";
 import TodoList from "./components/TodoList";
@@ -59,6 +60,14 @@ const App: React.FC = () => {
           completedTodos={completedTodos}
           setCompletedTodos={setCompletedTodos}
         />
+        
+      <p id="app-p">
+        Developed by
+        <a target="_blank" href="https://www.linkedin.com/in/burhan-siraj/">
+          {" "}
+          Burhan Uddin
+        </a>
+      </p>
       </div>
     </DragDropContext>
   );
