@@ -63,7 +63,7 @@ const App: React.FC = () => {
         
       <p id="app-p">
         Developed by
-        <a target="_blank" href="https://www.linkedin.com/in/burhan-siraj/">
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/burhan-siraj/">
           {" "}
           Burhan Uddin
         </a>
